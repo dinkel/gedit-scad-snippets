@@ -42,8 +42,9 @@
   </snippet>
   <snippet>
     <text><![CDATA[hull() {
-	$0
+	$GEDIT_SELECTED_TEXT$0
 }]]></text>
+    <accelerator><![CDATA[<Shift><Alt>h]]></accelerator>
     <tag>h</tag>
     <description>Transformations: hull</description>
   </snippet>
