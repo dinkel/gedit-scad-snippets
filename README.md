@@ -16,36 +16,29 @@ In order to use these snippets, two prequisites need to be fulfilled:
 * The mime type definition for `.scad` files to be registered. I did this by
   installing 
   [scad-highlight-gtk](https://github.com/brunogirin/scad-highlight-gtk). This
-  also provides nice syntax highlighting.
+  also provides nice syntax highlighting :-).
 * The *Snippets plugin* (should be provided be the gedit package by default)
-  needs to be activated. This can be done through *Edit* -> *Preferences* -> 
+  needs to be activated. This can be done through *Edit* --> *Preferences* --> 
   *Plugins*.
 
-The file `scad.xml` needs to be copied (or better symlinked) usually to 
+The file `scad.xml` needs to be copied (or better symlinked) to 
 
-`~/.config/gedit/snippets` (for only this user)
+`~/.config/gedit/snippets` (for only the current user)
 
 or
 
-`/usr/share/gedit/plugins/snippets` (for system-wide installation)
+`/usr/share/gedit/plugins/snippets` (for a system-wide installation)
 
-Note the the directories might depend on your specific installation.
-
-Contact
--------
-
-Author: Christian Luginbühl <dinkel@pimprecords.com>
-Home:   <http://github.com/dinkel/gedit-scad-snippets>
+Note the the directories might depend on your specific installation and possibly
+need to be created first.
 
 License
 -------
 
 See the LICENSE file.
 
-Comments / Bugs
----------------
-
-Suggestions for improvements or bug reports are always welcome! 
+Comments
+--------
 
 * By far not all commands provided by OpenSCAD have a corresponding snippet, but
   only the ones I use most.
@@ -61,5 +54,8 @@ Suggestions for improvements or bug reports are always welcome!
 **That said: Don't count on anything (be it the triggers or the replacements)
 being stable right now!**
 
-It might be a goot idea to fork this project and customize the snippets file to 
-your liking.
+Contact
+-------
+
+Please post bugs, suggestions and patches to the bug tracker at 
+[<https://github.com/dinkel/gedit-scad-snippets/issues>.
