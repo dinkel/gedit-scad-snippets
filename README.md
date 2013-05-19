@@ -18,16 +18,16 @@ In order to use these snippets, two prequisites need to be fulfilled:
   [scad-highlight-gtk](https://github.com/brunogirin/scad-highlight-gtk). This
   also provides nice syntax highlighting :-).
 * The *Snippets plugin* (should be provided be the gedit package by default)
-  needs to be activated. This can be done through *Edit* --> *Preferences* --> 
+  needs to be activated. This can be done through *Edit* -> *Preferences* -> 
   *Plugins*.
 
 The file `scad.xml` needs to be copied (or better symlinked) to 
 
-`~/.config/gedit/snippets` (for only the current user)
+`~/.config/gedit/snippets/` (for only the current user)
 
 or
 
-`/usr/share/gedit/plugins/snippets` (for a system-wide installation)
+`/usr/share/gedit/plugins/snippets/` (for a system-wide installation)
 
 Note the the directories might depend on your specific installation and possibly
 need to be created first.
@@ -50,12 +50,13 @@ Comments
 * If either a scalar value or a vector is accepted as an input parameter to a
   command, the latter is used inside the snippets.
 * If named parameters could be omitted, the actually have been omitted.
+* Most optional parameters have not been included in the snippets.
 
-**That said: Don't count on anything (be it the triggers or the replacements)
+That said: **Don't count on anything (be it the triggers or the replacements)
 being stable right now!**
 
 Contact
 -------
 
 Please post bugs, suggestions and patches to the bug tracker at 
-[<https://github.com/dinkel/gedit-scad-snippets/issues>.
+<https://github.com/dinkel/gedit-scad-snippets/issues>.
