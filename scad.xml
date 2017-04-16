@@ -1,6 +1,6 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UFT-8"?>
 <snippets language="scad">
-  <snippet>
+  <snippet id="t">
     <text><![CDATA[translate([${1:0}, ${2:0}, ${3:0}]) {
 	$GEDIT_SELECTED_TEXT$0
 }]]></text>
@@ -8,7 +8,7 @@
     <tag>t</tag>
     <description>Transformations: translate</description>
   </snippet>
-  <snippet>
+  <snippet id="d">
     <text><![CDATA[difference() {
 	$GEDIT_SELECTED_TEXT$0
 }]]></text>
@@ -16,7 +16,7 @@
     <tag>d</tag>
     <description>CSG Modelling: difference</description>
   </snippet>
-  <snippet>
+  <snippet id="u">
     <text><![CDATA[union() {
 	$GEDIT_SELECTED_TEXT$0
 }]]></text>
@@ -24,7 +24,7 @@
     <tag>u</tag>
     <description>CSG Modelling: union</description>
   </snippet>
-  <snippet>
+  <snippet id="i">
     <text><![CDATA[intersection() {
 	$GEDIT_SELECTED_TEXT$0
 }]]></text>
@@ -40,7 +40,7 @@
     <tag>r</tag>
     <description>Transformations: rotate</description>
   </snippet>
-  <snippet>
+  <snippet id="h">
     <text><![CDATA[hull() {
 	$GEDIT_SELECTED_TEXT$0
 }]]></text>
@@ -48,59 +48,59 @@
     <tag>h</tag>
     <description>Transformations: hull</description>
   </snippet>
-  <snippet>
+  <snippet id="m">
     <text><![CDATA[mirror() {
 	$0
 }]]></text>
     <tag>m</tag>
     <description>Transformations: mirror</description>
   </snippet>
-  <snippet>
+  <snippet id="mk">
     <text><![CDATA[minkowski() {
 	$0
 }]]></text>
     <tag>mk</tag>
     <description>Transformations: minkowski</description>
   </snippet>
-  <snippet>
+  <snippet id="s">
     <text><![CDATA[scale([${1:0}, ${2:0}, ${3:0}]) {
 	$0
 }]]></text>
     <tag>s</tag>
     <description>Transformations: scale</description>
   </snippet>
-  <snippet>
+  <snippet id="rs">
     <text><![CDATA[resize([${1:0}, ${2:0}, ${3:0}]) {
 	$0
 }]]></text>
     <tag>rs</tag>
     <description>Transformations: resize</description>
   </snippet>
-  <snippet>
+  <snippet id="c">
     <text><![CDATA[cube([${1:1}, ${2:1}, ${3:1}]${4:, center = true});
 $0]]></text>
     <tag>c</tag>
     <description>Primitive Solids: cube</description>
   </snippet>
-  <snippet>
+  <snippet id="sp">
     <text><![CDATA[sphere(${1:1}${2:, $fn=100});
 $0]]></text>
     <tag>sp</tag>
     <description>Primitive Solids: sphere</description>
   </snippet>
-  <snippet>
+  <snippet id="cy">
     <text><![CDATA[cylinder(h = ${1:1}, r = ${2:1}${3:, center = true});
 $0]]></text>
     <tag>cy</tag>
     <description>Primitive Solids: cylinder</description>
   </snippet>
-  <snippet>
+  <snippet id="co">
     <text><![CDATA[cylinder(h = ${1:1}, r1 = ${2:1}, r2 = ${3:0}${4:, center = true});
 $0]]></text>
     <tag>co</tag>
     <description>Primitive Solids cone (cylinder)</description>
   </snippet>
-  <snippet>
+  <snippet id="mo">
     <text><![CDATA[module ${1:name}(${2}) {
 	$GEDIT_SELECTED_TEXT$0
 }]]></text>
@@ -108,25 +108,25 @@ $0]]></text>
     <tag>mo</tag>
     <description>Modules: module</description>
   </snippet>
-  <snippet>
+  <snippet id="in">
     <text><![CDATA[include <$1.scad>;
 $0]]></text>
     <tag>in</tag>
     <description>Include Statement: include</description>
   </snippet>
-  <snippet>
+  <snippet id="us">
     <text><![CDATA[use <$1.scad>;
 $0]]></text>
     <tag>us</tag>
     <description>Include Statement: use</description>
   </snippet>
-  <snippet>
+  <snippet id="sq">
     <text><![CDATA[square([${1:1}, ${2:1}]${3:, center = true});
 $0]]></text>
     <tag>sq</tag>
     <description>2D Primitives: square</description>
   </snippet>
-  <snippet>
+  <snippet id="ci">
     <text><![CDATA[circle(${1:1});
 $0]]></text>
     <tag>ci</tag>
